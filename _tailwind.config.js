@@ -17,8 +17,8 @@ module.exports = {
       xl: "1280px",
     },
     fontFamily: {
-      primary: ["var(--font-dmSans)"],
-      secondary: ["var(--font-barlow)"],
+      primary: ["var(--font-manrope)"],
+      secondary: ["var(--font-outfit)"],
     },
     // keep Tailwind's default color values but add new ones (extend)
     extend: {
