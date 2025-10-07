@@ -6,6 +6,9 @@ import Header from "@component/components/Header";
 import Hero from "@component/components/Hero";
 import About from "@component/components/About";
 import Services from "@component/components/Services";
+import Work from "@component/components/Work";
+import Testimonials from "@component/components/Testimonials";
+import Stats from "@component/components/Stats";
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -39,6 +42,9 @@ const Home = () => {
         <Hero />
         <About />
         <Services />
+        <Work />
+        <Testimonials />
+        <Stats />
       </div>
     </div>
   );
