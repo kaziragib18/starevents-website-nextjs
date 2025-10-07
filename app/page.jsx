@@ -9,6 +9,8 @@ import Services from "@component/components/Services";
 import Work from "@component/components/Work";
 import Testimonials from "@component/components/Testimonials";
 import Stats from "@component/components/Stats";
+import Faq from "@component/components/Faq";
+import Contact from "@component/components/Contact";
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -45,6 +47,8 @@ const Home = () => {
         <Work />
         <Testimonials />
         <Stats />
+        <Faq />
+        <Contact />
       </div>
     </div>
   );
