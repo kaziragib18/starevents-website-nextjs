@@ -3,6 +3,9 @@
 import React, { useEffect, useState } from "react";
 import Topbar from "@component/components/Topbar";
 import Header from "@component/components/Header";
+import Hero from "@component/components/Hero";
+import About from "@component/components/About";
+import Services from "@component/components/Services";
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -33,6 +36,9 @@ const Home = () => {
         }`}
       >
         <Header />
+        <Hero />
+        <About />
+        <Services />
       </div>
     </div>
   );
