@@ -1,16 +1,17 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Hero from "@component/components/Hero";
 import Topbar from "@component/components/Topbar";
 import Header from "@component/components/Header";
-import Hero from "@component/components/Hero";
 import About from "@component/components/About";
-import Services from "@component/components/Services";
+import Stats from "@component/components/Stats";
 import Work from "@component/components/Work";
 import Testimonials from "@component/components/Testimonials";
-import Stats from "@component/components/Stats";
 import Faq from "@component/components/Faq";
 import Contact from "@component/components/Contact";
+import Footer from "@component/components/Footer";
+import Services from "@component/components/Services";
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -41,15 +42,16 @@ const Home = () => {
         }`}
       >
         <Header />
-        <Hero />
-        <About />
-        <Services />
-        <Work />
-        <Testimonials />
-        <Stats />
-        <Faq />
-        <Contact />
       </div>
+      <Hero />
+      <About />
+      <Services />
+      <Work />
+      <Testimonials />
+      <Stats />
+      <Faq />
+      <Contact />
+      <Footer />
     </div>
   );
 };

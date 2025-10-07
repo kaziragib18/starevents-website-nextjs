@@ -19,8 +19,8 @@ const navLinks = [
     href: "services",
   },
   {
-    label: "Projects",
-    href: "projects",
+    label: "Events",
+    href: "events",
   },
   {
     label: "Contact",
