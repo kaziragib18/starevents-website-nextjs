@@ -1,6 +1,6 @@
 import { Outfit, Manrope } from "next/font/google";
 import "./globals.css";
-import Chatbot from "@component/components/chatbot";
+import ChatBot from "@component/components/Chatbot";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${outfit.variable} ${manrope.variable} antialiased`}>
         {children}
-        <Chatbot />
+        <ChatBot />
       </body>
     </html>
   );
