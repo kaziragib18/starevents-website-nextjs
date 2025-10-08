@@ -1,3 +1,35 @@
+#  STAREVENTS
+
+## About
+**STAREVENTS** is built with **Nextjs**, **Tailwind CSS**,  **Serverless API** and **OPENAI Chatbot** with **Framer-Motion**, for smooth animations. It is a **fully responsive, interactive web application** that emulates the engaging experience, focusing on dynamic UI, animations, and modern front-end design practices.
+
+This project showcases:
+- Component-based architecture with **Nextjs**
+- Responsive design using **Tailwind CSS**
+- Interactive animations powered by **Framer-Motion**
+- Clean, modern UI
+
+**Note:** This is a **frontend-only project** and does not include backend or authentication but has a intergated Serverless  **OPENAI Chatbot**.
+
+---
+
+## ✨ Features
+- Fully **responsive layout** for desktop, tablet, and mobile
+- **Homepage and Landing sections** 
+- **Animated senction, grids and transitions** with **Framer-Motion**
+- **Navigation menus** and interactive UI components
+- **Section-based scrolling and animations**
+- Modular **components** for reusable UI elements
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** NextJS, Tailwind CSS  
+- **Animations:** Framer-Motion
+- **Build Tool:** Vite
+
+---
+
 This is a [Next.js](https://nextjs.org) project from [here](https://www.youtube.com/watch?v=VgO5WxSY_64), using latest Next.js 15, Tailwind CSS v3 And Framer Motion
 
 ## Getting Started
